@@ -26,25 +26,25 @@ Before we begin
 
 Please help make this a welcoming session for everyone.
 
-::: {.three-cards}
-::: {.card}
+:::: {.columns .housekeeping-layout}
+::: {.column .card width="32%"}
 <h3>Be respectful</h3>
 
 Treat the speaker and other attendees with care.
 :::
 
-::: {.card}
+::: {.column .card width="32%"}
 <h3>Keep questions constructive</h3>
 
 Use the Q&A to ask about ideas and experiences.
 :::
 
-::: {.card}
+::: {.column .card width="32%"}
 <h3>Need help?</h3>
 
 Contact Fonti if something in the session concerns you.
 :::
-:::
+::::
 
 [https://statsoc.org.au/Code-of-conduct](https://statsoc.org.au/Code-of-conduct)
 
@@ -54,16 +54,21 @@ Contact Fonti if something in the session concerns you.
 Stay connected
 :::
 
+:::: {.columns .membership-layout}
+::: {.column .membership-copy width="52%"}
 <h3>A community for statistics and data</h3>
 
-The Statistical Society of Australia brings connects statistics and data professionals through networking, career development, and accreditation resources
+The Statistical Society of Australia connects statistics and data professionals through networking, career development, and accreditation resources.
+:::
 
-![](image/ssa.png)
-
+::: {.column .membership-visual width="43%"}
+![](image/ssa.png){.membership-image}
 
 ::: {.membership-callout}
-Interested in joining? See our [website](https://statsoc.org.au/membership_benefits)
+Interested in joining? See our [website](https://statsoc.org.au/membership_benefits).
 :::
+:::
+::::
 
 ## Introducing... {.speaker}
 
@@ -71,15 +76,17 @@ Interested in joining? See our [website](https://statsoc.org.au/membership_benef
 Today's speaker
 :::
 
-::: {.speaker-layout}
-::: {.speaker-copy}
+:::: {.columns .speaker-layout}
+::: {.column .speaker-copy width="55%"}
 <h3>Charlie Gao</h3>
 
 Senior Software Engineer · Posit
 :::
 
-<img src="image/charlie-gao.png" alt="Event poster for Charlie Gao's webinar" class="speaker-poster">
+::: {.column .speaker-visual width="40%"}
+<img src="image/charlie-gao.png" alt="Portrait of Charlie Gao" class="speaker-poster">
 :::
+::::
 
 ## Q&A {.closing}
 
@@ -95,11 +102,28 @@ Please use raise your hand or use Q&A function
 Upcoming events
 :::
 
-* 🏆 [Statistical Computing and Visualisation Award](https://statsoc.org.au/Statistical-Computing-and-Visualisation-Award) | Oct 31
-* 🧑‍💻 [OceaniaR Hackathon](https://statsoc.org.au/event-6818002) | 29 Nov
-* 💡 [WOMBAT tutorials](https://wombat2026.numbat.space/program/schedule/) | 30 Nov
-    * Publish your software
-    * Survival Analysis
-    * Intro to {targets} 
-    * and more!
+:::: {.columns .events-layout}
+::: {.column .event-card width="32%"}
+**🏆 [Statistical Computing and Visualisation Award](https://statsoc.org.au/Statistical-Computing-and-Visualisation-Award)**
+
+31 October
+:::
+
+::: {.column .event-card width="32%"}
+**🧑‍💻 [OceaniaR Hackathon](https://statsoc.org.au/event-6818002)**
+
+29 November
+:::
+
+::: {.column .event-card width="32%"}
+**💡 [WOMBAT tutorials](https://wombat2026.numbat.space/program/schedule/)**
+
+30 November
+
+- Publish your software
+- Survival Analysis
+- Intro to {targets}
+- and more!
+:::
+::::
 
