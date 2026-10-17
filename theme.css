@@ -1,0 +1,226 @@
+/* Colours sampled from image/post-1.png and image/post-2.png. */
+
+:root {
+  --leaf: #e3f4d9;
+  --ink: #4c502e;
+  --wave: #c5d2b7;
+  --deep-ink: #34391f;
+  --card: #f5faef;
+}
+
+.reveal {
+  color: var(--ink);
+  background: var(--leaf);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 36px;
+  letter-spacing: -0.005em;
+}
+
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal .slides section:not(#title-slide) {
+  padding-top: 0.7em;
+}
+
+.reveal .slides section:not(#title-slide)::before {
+  content: "";
+  display: block;
+  width: 8rem;
+  height: 0.22rem;
+  margin-bottom: 0.65rem;
+  background: var(--wave);
+  border-radius: 999px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: var(--ink);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-transform: none;
+}
+
+.reveal h2 {
+  font-size: 1.65em;
+  margin-bottom: 0.38em;
+}
+
+.reveal h3 {
+  font-size: 1.15em;
+  margin-bottom: 0.34em;
+}
+
+.reveal p {
+  line-height: 1.35;
+}
+
+.reveal .eyebrow {
+  color: var(--deep-ink);
+  font-size: 0.43em;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  margin-bottom: 0.55em;
+}
+
+.reveal .eyebrow p {
+  margin: 0;
+}
+
+#title-slide {
+  text-align: left;
+  padding: 1.1em 0.45em 0;
+}
+
+#title-slide::before {
+  content: "SCDV INVITED WEBINAR";
+  display: block;
+  margin-bottom: 1.6em;
+  color: var(--deep-ink);
+  font-size: 0.43em;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+#title-slide .title {
+  max-width: 11em;
+  font-size: 2.35em;
+  line-height: 1.02;
+  margin-bottom: 0.12em;
+}
+
+#title-slide .subtitle {
+  color: var(--ink);
+  font-size: 1.18em;
+  font-weight: 400;
+  margin-bottom: 1.35em;
+}
+
+#title-slide .quarto-title-author-name,
+#title-slide .date {
+  color: var(--deep-ink);
+  font-size: 0.58em;
+  line-height: 1.35;
+}
+
+#title-slide .quarto-title-authors {
+  justify-content: flex-start;
+}
+
+#title-slide .quarto-title-author {
+  padding: 0;
+}
+
+#title-slide .quarto-title-author-name {
+  text-align: left;
+}
+
+#title-slide .quarto-title-author-name {
+  font-weight: 700;
+}
+
+#title-slide .date {
+  margin-top: 0.25em;
+}
+
+#title-slide .date::after {
+  content: " · 6:00 pm AEDT / 7:00 am UTC";
+}
+
+.reveal .three-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55em;
+  margin-top: 1.25em;
+}
+
+.reveal .card {
+  min-height: 5.3em;
+  padding: 0.65em 0.7em;
+  background: var(--card);
+  border-top: 0.15em solid var(--wave);
+  border-radius: 0.2em;
+  box-sizing: border-box;
+}
+
+.reveal .card h3 {
+  font-size: 0.67em;
+  margin-bottom: 0.75em;
+}
+
+.reveal .card p {
+  font-size: 0.55em;
+  margin: 0;
+}
+
+.reveal .membership h3 {
+  max-width: 11em;
+  font-size: 1.25em;
+}
+
+.reveal .membership > p {
+  max-width: 22em;
+}
+
+.reveal .membership-callout {
+  max-width: 22em;
+  margin-top: 1.3em;
+  padding: 0.45em 0.75em;
+  border-left: 0.18em solid var(--ink);
+  background: var(--card);
+  font-size: 0.7em;
+}
+
+.reveal .membership-callout p {
+  margin: 0;
+}
+
+.reveal .speaker-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 42%;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.reveal .speaker-copy h3 {
+  font-size: 1.55em;
+}
+
+.reveal .speaker-copy p {
+  max-width: 16em;
+  margin-bottom: 1.4em;
+}
+
+.reveal .speaker-copy p:last-child {
+  font-size: 0.8em;
+}
+
+.reveal .speaker-poster {
+  width: 100%;
+  max-height: 58vh;
+  object-fit: contain;
+  border: 0.12em solid var(--wave);
+  border-radius: 0.2em;
+  box-sizing: border-box;
+}
+
+.reveal .closing h3 {
+  font-size: 1.85em;
+  margin-top: 1.1em;
+}
+
+.reveal .slide-number,
+.reveal .footer {
+  color: var(--ink);
+  font-size: 0.36em;
+  opacity: 0.78;
+}
+
+.reveal .progress {
+  color: var(--ink);
+  height: 0.14em;
+}
