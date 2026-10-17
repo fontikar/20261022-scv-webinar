@@ -46,7 +46,9 @@ Contact Fonti if something in the session concerns you.
 :::
 ::::
 
+::: {.conduct-link}
 [https://statsoc.org.au/Code-of-conduct](https://statsoc.org.au/Code-of-conduct)
+:::
 
 ## Statistical Society of Australia {.membership}
 
@@ -77,13 +79,13 @@ Today's speaker
 :::
 
 :::: {.columns .speaker-layout}
-::: {.column .speaker-copy width="55%"}
+::: {.column .speaker-copy width="45%"}
 <h3>Charlie Gao</h3>
 
 Senior Software Engineer · Posit
 :::
 
-::: {.column .speaker-visual width="40%"}
+::: {.column .speaker-visual width="52%"}
 <img src="image/charlie-gao.png" alt="Portrait of Charlie Gao" class="speaker-poster">
 :::
 ::::

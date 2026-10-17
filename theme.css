@@ -227,7 +227,7 @@
 }
 
 .reveal .speaker-visual > p {
-  width: min(100%, 54vh);
+  width: min(100%, 75vh);
   margin: 0;
 }
 
@@ -239,6 +239,12 @@
   border: 0.18em solid var(--wave);
   border-radius: 50%;
   box-sizing: border-box;
+}
+
+.reveal .conduct-link {
+  margin-top: 0.45em;
+  text-align: right;
+  font-size: 0.7em;
 }
 
 .reveal .event-card {
