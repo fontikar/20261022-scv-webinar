@@ -107,12 +107,23 @@ Upcoming events
 **🏆 [Statistical Computing and Visualisation Award](https://statsoc.org.au/Statistical-Computing-and-Visualisation-Award)**
 
 31 October
+
+- Australia students and recent graduates
+- Recogise early open-source contributions
+
+![](image/scv.png){width=70% fig-align="center"}
 :::
 
 ::: {.column .event-card width="32%"}
 **🧑‍💻 [OceaniaR Hackathon](https://statsoc.org.au/event-6818002)**
 
 29 November
+
+- Propose ideas
+- Collaborate on meaningful projects
+- Build skills and connections
+
+![](image/oceaniar.jpeg){fig-align="center"}
 :::
 
 ::: {.column .event-card width="32%"}
@@ -124,6 +135,9 @@ Upcoming events
 - Survival Analysis
 - Intro to {targets}
 - and more!
+
+![](image/wombat.png){fig-align="center"}
 :::
+
 ::::
 
