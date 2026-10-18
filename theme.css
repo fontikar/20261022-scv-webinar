@@ -1,7 +1,7 @@
 /* Colours sampled from image/post-1.png and image/post-2.png. */
 
 :root {
-  --leaf: #e3f4d9;
+  --leaf: #def3d0;
   --ink: #4c502e;
   --wave: #c5d2b7;
   --deep-ink: #34391f;
@@ -81,13 +81,21 @@
 }
 
 #title-slide {
+  position: relative;
   text-align: left;
   padding: 1.1em 0.45em 0;
+}
+
+#title-slide > * {
+  position: relative;
+  max-width: 58%;
 }
 
 #title-slide::before {
   content: "SCV INVITED WEBINAR";
   display: block;
+  position: relative;
+  max-width: 58%;
   margin-bottom: 1.6em;
   color: var(--deep-ink);
   font-size: 0.43em;
@@ -100,6 +108,7 @@
   font-size: 2.35em;
   line-height: 1.02;
   margin-bottom: 0.12em;
+  white-space: nowrap;
 }
 
 #title-slide .subtitle {
@@ -138,6 +147,39 @@
 
 #title-slide .date::after {
   content: " · 6:00 pm AEDT / 7:00 am UTC";
+}
+
+#title-slide .title-qr {
+  position: absolute;
+  top: 14%;
+  right: 4%;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45em;
+  text-align: center;
+}
+
+#title-slide .title-qr .qr-caption {
+  color: var(--deep-ink);
+  font-size: 0.58em;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#title-slide .title-qr .qr-link {
+  display: block;
+  width: min(11em, 100%);
+}
+
+#title-slide .title-qr img {
+  display: block;
+  width: 100%;
+  padding: 0.16em;
+  background: #fff;
+  box-sizing: border-box;
 }
 
 .reveal .housekeeping-layout,

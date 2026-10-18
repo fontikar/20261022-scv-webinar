@@ -4,6 +4,41 @@ subtitle: "Building the open source tools"
 author: "Charlie Gao · Senior Software Engineer, Posit"
 date: 2026-10-22
 date-format: "dddd D MMMM YYYY"
+resources:
+  - image/qrcode-slides.svg
+include-in-header:
+  - text: |
+      <script>
+        window.addEventListener("load", () => {
+          const slide = document.querySelector("#title-slide");
+          if (!slide || slide.querySelector(".title-qr")) return;
+
+          const panel = document.createElement("div");
+          panel.className = "title-qr";
+
+          const link = document.createElement("a");
+          link.href = "https://fontikar.github.io/20261022-scv-webinar/";
+          link.target = "_blank";
+          link.rel = "noopener";
+          link.className = "qr-link";
+          link.setAttribute("aria-label", "Open the deployed slides");
+
+          const image = document.createElement("img");
+          image.src = "image/qrcode-slides.svg";
+          image.alt = "QR code linking to the deployed slides";
+          link.append(image);
+
+          const caption = document.createElement("a");
+          caption.href = link.href;
+          caption.target = "_blank";
+          caption.rel = "noopener";
+          caption.className = "qr-caption";
+          caption.textContent = "Slides found here";
+
+          panel.append(caption, link);
+          slide.append(panel);
+        });
+      </script>
 format:
   revealjs:
     theme: simple
