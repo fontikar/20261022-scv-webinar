@@ -86,7 +86,7 @@
 }
 
 #title-slide::before {
-  content: "SCDV INVITED WEBINAR";
+  content: "SCV INVITED WEBINAR";
   display: block;
   margin-bottom: 1.6em;
   color: var(--deep-ink);
