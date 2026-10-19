@@ -181,6 +181,54 @@
   box-sizing: border-box;
 }
 
+.reveal .hi-people {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.6em;
+  margin-top: 1.1em;
+}
+
+.reveal .hi-person {
+  min-width: 0;
+  text-align: center;
+}
+
+.reveal .hi-portrait {
+  width: min(5.8em, 100%);
+  aspect-ratio: 1;
+  margin: 0 auto 0.45em;
+  overflow: hidden;
+  border: 0.18em solid var(--wave);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.reveal .hi-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.reveal .hi-person:last-child .hi-portrait img {
+  transform: translate(18%, -29%) scale(1.6);
+}
+
+.reveal .hi-person-name {
+  min-height: 1.4em;
+  font-size: 0.68em;
+  font-weight: 700;
+}
+
+.reveal .hi-person-workplace {
+  min-height: 1.4em;
+  color: var(--deep-ink);
+  font-size: 0.55em;
+}
+
 .reveal .housekeeping-layout,
 .reveal .events-layout {
   gap: 0.55em;

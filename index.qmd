@@ -6,6 +6,11 @@ date: 2026-10-22
 date-format: "dddd D MMMM YYYY"
 resources:
   - image/qrcode-slides.svg
+  - image/dicook.png
+  - image/dean.jpeg
+  - image/nick.jpeg
+  - image/ryan.png
+  - image/fonti.jpeg
 include-in-header:
   - text: |
       <script>
@@ -52,6 +57,40 @@ format:
     margin: 0.07
     footer: "SCV Invited Webinar · 22 October 2026"
 ---
+
+## Hi! 👋 {.hi-slide}
+
+We are the Statistical Computing + Visualisation chapter!
+
+```{=html}
+<div class="hi-people">
+  <div class="hi-person">
+    <div class="hi-portrait"><img src="image/dicook.png" alt="Portrait of Di Cook"></div>
+    <div class="hi-person-name">Prof. Di Cook</div>
+    <div class="hi-person-workplace">Econometrics and Business Statistics, Monash University</div>
+  </div>
+  <div class="hi-person">
+    <div class="hi-portrait"><img src="image/dean.jpeg" alt="Portrait of Dean"></div>
+    <div class="hi-person-name">Dean Marchiori</div>
+    <div class="hi-person-workplace">Wave Data Labs</div>
+  </div>
+  <div class="hi-person">
+    <div class="hi-portrait"><img src="image/nick.jpeg" alt="Portrait of Nick"></div>
+    <div class="hi-person-name">Dr. Nicholas Tierney</div>
+    <div class="hi-person-workplace">Statistical Consultant</div>
+  </div>
+  <div class="hi-person">
+    <div class="hi-portrait"><img src="image/ryan.png" alt="Portrait of Ryan"></div>
+    <div class="hi-person-name">Dr. Ryan Covey</div>
+    <div class="hi-person-workplace">Australia Bureau of Statistics</div>
+  </div>
+  <div class="hi-person">
+    <div class="hi-portrait"><img src="image/fonti.jpeg" alt="Portrait of Fonti"></div>
+    <div class="hi-person-name">Dr. Fonti Kar</div>
+    <div class="hi-person-workplace">Econometrics and Business Statistics, Monash University</div>
+  </div>
+</div>
+```
 
 ## Code of Conduct {.housekeeping}
 
@@ -133,7 +172,7 @@ Over to you
 
 Please use raise your hand or use Q&A function
 
-## What's next for SCDV? {.closing}
+## What's next for SCV? {.closing}
 
 ::: {.eyebrow}
 Upcoming events
@@ -177,4 +216,3 @@ Upcoming events
 :::
 
 ::::
-
